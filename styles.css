@@ -1,0 +1,63 @@
+body {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 15%;    
+    background-size: contain;
+    background: rgb(199, 63, 63); 
+    background: -webkit-linear-gradient(left top, black, rgb(231, 93, 93)); 
+    background: -o-linear-gradient(bottom right, rgb(156, 15, 15), rgb(253, 73, 73)); 
+    background: -moz-linear-gradient(bottom right, rgb(179, 42, 42), rgb(236, 69, 69)); 
+    background: linear-gradient(to bottom right, rgb(238, 93, 93), rgb(228, 66, 66)); 
+}
+
+.panel-transparent {
+    background: none;
+    color: beige;
+}
+.panel-primary .panel-transparent{
+    background-color:black;
+}
+.panel-transparent .panel-heading{
+    background: rgba(226, 212, 15, 0.5)!important;
+}
+
+.panel-transparent .panel-body{
+    background: rgba(203, 224, 10, 0.5)!important;
+}
+
+label {
+    color: rgb(218, 166, 166);
+}
+
+th {
+    color: white;
+}
+
+td {
+    color: rgb(119, 190, 116);
+}
+
+input {
+    background: rgba(122, 130, 136, 0.2)!important;
+    color: deepskyblue!important;
+}
+
+textarea:focus, input:focus {
+    color: rgb(150, 207, 228);
+}
+
+button {
+    color: deepskyblue;
+}
+
+div.jumbotron {
+    background: transparent;
+}
+
+#header {
+    color: rgb(147, 187, 201);
+}
+
+h3 {
+    color: white;
+}
